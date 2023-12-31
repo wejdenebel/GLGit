@@ -45,7 +45,7 @@ void afficherliste(liste l) {
         tmp=tmp->next;
     }
     }
-
+}
 int case_vide(liste l) {
     return (int)(l->next==NULL);
 }
