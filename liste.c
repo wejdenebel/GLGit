@@ -40,6 +40,7 @@ liste supprimer(liste l) {
 void afficherliste(liste l) {
     liste tmp = l;
      while (tmp->next != NULL) {
+         while (tmp->next != NULL) {
         affichage_voie(tmp->contenu);
         tmp=tmp->next;
     }
